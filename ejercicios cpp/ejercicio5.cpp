@@ -22,6 +22,9 @@ int main()
     {
         cout << "Ingrese la nota del estudiante " << (i + 1) << ": ";
         cin >> notas[i];
+        if (notas[i] > 100) {
+            notas[i] = 100;
+        }
         suma += notas[i];
     }
 

@@ -55,7 +55,6 @@ void ingresarMatriz(int numMatriz)
     {
         filas1 = numFilas;
         columnas1 = numColumnas;
-        ingresarMatriz(2);
     }
     else
     {
@@ -102,6 +101,7 @@ int main()
 {
 
     ingresarMatriz(1);
+    ingresarMatriz(2);
     multiplicarMatrices();
 
 }
