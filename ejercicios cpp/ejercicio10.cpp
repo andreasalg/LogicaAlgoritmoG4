@@ -16,7 +16,6 @@ int filas, columnas;
 void ingresar()
 {
     int num;
-    cout << endl;
     for (int x = 0; x < filas; x++)
     {
         for (int y = 0; y < columnas; y++)
